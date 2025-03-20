@@ -1,0 +1,11 @@
+<?php
+
+$animales=array("perro","gato","pollito","conejo");
+	$animales[]="pez";
+	
+	print_r($animales);
+$animales[1]="tortuga";
+	print_r($animales);
+
+	
+?>
