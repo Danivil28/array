@@ -6,6 +6,11 @@ echo "quiz la proxima calse";
 	$animales[]="pez";
 	
 	print_r($animales);
+
+        $animales=["perro","gato","pollito","conejo"];
+	unset($animales[2]);
+	print_r($animales);
+
 	
 	$animaleliminar="pollito";
 	$llave =array_search($animaleliminar,$animales);
