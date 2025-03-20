@@ -1,0 +1,10 @@
+<?php
+
+$animales=array("perro","gato","pollito","conejo");
+	$animales[]="pez";
+	
+	print_r($animales);
+$animalesseleccion=array_slice($animales,1,2);
+	print_r($animalesseleccion); 
+
+?>
