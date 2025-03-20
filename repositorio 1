@@ -1,0 +1,19 @@
+<?php
+
+echo "quiz la proxima calse";
+	
+	$animales=array("perro","gato","pollito","conejo");
+	$animales[]="pez";
+	
+	print_r($animales);
+	
+	$animaleliminar="pollito";
+	$llave =array_search($animaleliminar,$animales);
+	
+	if($llave!==false){
+	  unset($animales[$llave]);
+	}
+	
+	print_r($animales);
+	
+?>
