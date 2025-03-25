@@ -1,1 +1,12 @@
+<?php
+	
+	$datos1=array("nombre"=>"maria","edad"=>23,"correo"=>"maria@gmail.com");
+	
+	$datos2=array("ciudad"=>"bogota","profesion"=>"enfermera");
+	
+	$datoscombinados=array_merge($datos1,$datos2);
+	
+	print_r($datoscombinados);
+
+?>
 
