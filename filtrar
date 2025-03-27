@@ -1,0 +1,14 @@
+<?php
+
+$edades = array("carlos"=>23,"maria"=>21, "juan"=>15);
+
+asort($edades);
+
+print_r($edades);
+
+$edadesfiltrar=array_filter($edades,function($valor){
+return $valor > 15;
+});
+
+print_r($edadesfiltrar);
+?>;
