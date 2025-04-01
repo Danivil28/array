@@ -1,1 +1,9 @@
-
+<?php
+   
+$pila=array();
+array_push($pila,"perro");
+array_push($pila,"gato");
+array_push($pila, "pollito");
+$elemento=array_pop($pila);
+echo "ultimo elemento ingresado a la pila es ".$elemento;
+?>;
