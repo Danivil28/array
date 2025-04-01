@@ -1,0 +1,10 @@
+<?php
+   
+$cola=array();
+array_push($cola,"maria");
+array_push($cola,"carlos");
+array_push($cola,"daniela");
+
+$persona=array_shift($cola);
+echo "la primera persona ingresada a la cola es ".$persona;
+?>;
